@@ -1,0 +1,40 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+th {
+  color: #00ced1;
+}
+
+body {
+  background-color: #e0ffff;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  padding: 1rem;
+  background-color: #ffffff;
+  max-width: 600px;
+}
+
+table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 3px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.colunas {
+  display: flex;
+  flex-direction: column;
+  padding-right: 25px;
+}
