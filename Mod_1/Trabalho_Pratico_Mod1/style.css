@@ -1,0 +1,49 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+}
+body{
+    background: #EBF5FB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    margin-bottom: 10px;
+}
+h2, h3, thead{
+    color: #2581ac;
+}
+table{
+    margin-top: 30px;
+}
+h2{
+    margin-bottom: 15px;
+}
+h3 {
+    margin-bottom: 15px;
+}
+.container {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    padding: 30px;
+}
+.columns {
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+}
+.simulador {
+    display: flex;
+    flex-direction: row;
+}
+#botao-simular{
+    margin: 20px 0;
+    padding: 3px;
+    font-size: 17px;
+}
+th{
+    padding-right: 30px;
+}
