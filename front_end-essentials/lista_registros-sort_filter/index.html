@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lista de Registros</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div>
+        <h2>Options</h2>
+        <label for="sortby">Sort by</label>
+        <select id="sortby">
+          <option value="name-asc">Name (asc)</option>
+          <option value="name-desc">Name (desc)</option>
+          <option value="salary-asc">Salary (asc)</option>
+          <option value="salary-desc">Salary (desc)</option>
+        </select>
+        <fieldset id="rolesfs">
+          <legend>Filter by roles</legend>
+        </fieldset>
+      </div>
+      <div>
+        <h2>Employees <span id="counter"></span></h2>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Role</th>
+              <th>Salary</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
