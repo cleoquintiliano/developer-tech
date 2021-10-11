@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'diretivas';
+  exibir: boolean = true;
+
+  toggleShow() {
+    this.exibir = !this.exibir;
+  }
 }

@@ -4,22 +4,27 @@ import { TodoItem } from './todoItem';
 @Component({
   selector: 'app-todo-list',
   templateUrl: './todo-list.component.html',
-  styleUrls: ['./todo-list.component.css'],
+  styleUrls: ['./todo-list.component.css']
 })
 export class TodoListComponent {
-  tasks: TodoItem[] = [ 
-    { description: 'Rezar', done: true},
-    { description: 'Arrumar a cama', done: false}
+
+  newTask: string = '';
+
+  tasks: TodoItem[] = [
+    { description: 'Arrumar a cama', done: true },
+    { description: 'Fazer o trabalho prático do Bootcamp', done: false }
   ];
 
-  addTask(description: string) {
+  addTask() {
     this.tasks.push({
-      description: description,
+      description: this.newTask,
       done: false
     });
   }
 
   deleteTask(i: number) {
+    console.log('Excluir posicao ' + i);
     this.tasks.splice(i, 1);
   }
+
 }

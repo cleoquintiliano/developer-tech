@@ -1,4 +1,4 @@
 export interface TodoItem {
-  description: string;
-  done: boolean;
+    description: string;
+    done: boolean;
 }
