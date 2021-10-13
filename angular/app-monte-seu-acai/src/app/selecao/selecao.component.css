@@ -1,0 +1,22 @@
+:host {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.cabecalho {
+  background-color: lightgray;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+}
+
+.cabecalho .titulo {
+  font-weight: bold;
+}
+
+.cabecalho .status {
+  font-size: smaller;
+}
+
+.opcao {
+  padding: 8px 16px;
+}
